@@ -1,6 +1,6 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+Welcome richieredmond87,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
@@ -37,3 +37,12 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+Watched Video-----https://www.youtube.com/watch?v=
+
+Github code here--https://github.com/code-sketch/memory-game/
+
+
+
+Images from here--https://pixabay.com/vectors/africa-animal-cartoon-giraffe-1296386/
