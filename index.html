@@ -2,90 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
-  <title>Home</title>
-
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="js/scripts.js" async></script>
+  <title>Memory Game</title>
 </head>
 <body>
+  <h1 class="page-title">Memory Game</h1>
+  <div class="overlay-text visible">
+    Click to PLAY
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    YOU WON!
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
 
-<div><h1 class="heading" center>Memory Game</h1></div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/elephant.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/elephant.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/giraffe.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/giraffe.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/lamb.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/lamb.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/monkey.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/monkey.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/penguin.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/penguin.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/seal.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/seal.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/tortoise.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/tortoise.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/cat.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="questionMark" src="../img/question-mark.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="../img/cat.png">
+      </div>
+    </div>
+  </div>
 
-  <section class="memory-game">
-    <div class="memory-card" data-framework="elephant">
-      <img class="front-face" src="../img/elephant.png" alt="Elephant" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="elephant">
-      <img class="front-face" src="../img/elephant.png" alt="Elephant" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="giraffe">
-      <img class="front-face" src="../img/giraffe.png" alt="Giraffe" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="giraffe">
-      <img class="front-face" src="../img/giraffe.png" alt="Giraffe" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="lamb">
-      <img class="front-face" src="../img/lamb.png" alt="Lamb" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="lamb">
-      <img class="front-face" src="../img/lamb.png" alt="Lamb" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="monkey">
-      <img class="front-face" src="../img/monkey.png" alt="Monkey" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="monkey">
-      <img class="front-face" src="../img/monkey.png" alt="Monkey" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="penguin">
-      <img class="front-face" src="../img/penguin.png" alt="Penguin" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="penguin">
-      <img class="front-face" src="../img/penguin.png" alt="Penguin" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="seal">
-      <img class="front-face" src="../img/seal.png" alt="Seal" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="seal">
-      <img class="front-face" src="../img/seal.png" alt="Seal" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="tortoise">
-      <img class="front-face" src="../img/tortoise.png" alt="Tortoise" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="tortoise">
-      <img class="front-face" src="../img/tortoise.png" alt="Tortoise" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-
-    <div class="memory-card" data-framework="cat">
-      <img class="front-face" src="../img/cat.png" alt="Cat" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="cat">
-      <img class="front-face" src="../img/cat.png" alt="Cat" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
-    </div>
-  </section>
-
-  <script src="scripts.js"></script>
 </body>
 </html>

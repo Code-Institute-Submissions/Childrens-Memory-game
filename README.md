@@ -39,9 +39,12 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 
-Watched Video-----https://www.youtube.com/watch?v=
+Watched Video's-----https://www.youtube.com/watch?v=
+                  https://www.youtube.com/watch?v=28VfzEiJgy4
+                  https://www.youtube.com/watch?v=3uuQ3g92oPQ
 
 Github code here--https://github.com/code-sketch/memory-game/
+                  https://github.com/WebDevSimplified/Mix-Or-Match
 
 
 
