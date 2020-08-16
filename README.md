@@ -13,8 +13,8 @@ I kept it simple and straight forward not to complicate it or younger people, I 
 * Timer Counts down from 100 seconds to let you know your remaining time before GAME over
 * Flips keeps tracks of how many cards you have flipped
 * Hover over card back and the question mark grows to let you know what card you are about to click
-* Cards flip over to reveal eight pairs of matching animal cards the do an animation when match and turn back over when they are not matched
-* Game OVER or You WON! revealed at the end depending on whether you win thje game or not and an option to restart the game
+* Cards flip over to reveal eight pairs of matching animal cards the do an animation when matched and turn back over when they are not matched
+* Game OVER or You WON! revealed at the end depending on whether you win the game or not and an option to restart the game
 
 
 
@@ -22,8 +22,8 @@ I kept it simple and straight forward not to complicate it or younger people, I 
 I have tested this site every way I know how and fixed bugs to which I found.
 I cannot at this time find any faults in the code:
  
-![CSS Validator](img/cssValidator.png)
-Format: ![CSS Validator](url)
+
+Format: ![CSS Validator](img/cssValidator.png)
 
 ![HTML Checker](/img/htmlChecker.png)
 Format: ![HTML Checker](url)
