@@ -38,7 +38,7 @@ I cannot at this time find any faults in the code:
 https://richieredmond87.github.io/Childrens-Memory-game/
 
 ## Credits
-* I used google fonts for font family: https://fonts.google.com/
+* I used google fonts for font family: https://fonts.google.com/ 
 
 ## Media
 * The photos used in this site were obtained from:

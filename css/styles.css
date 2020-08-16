@@ -8,7 +8,7 @@
 
 html {
   min-height: 100vh;
-  font-family: Bubblegum Sans;
+  font-family:"Bubblegum Sans";
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 .page-title {
   color: #FFAAA8;
-  font-family: Bubblegum Sans, serif;
+  font-family:"Bubblegum Sans", serif;
   font-weight: normal;
   text-align: center;
   font-size: 6em;
@@ -125,7 +125,7 @@ body {
   align-items: center;
   flex-direction: column;
   color: #FFAAA8;
-  font-family: Bubblegum Sans, serif;
+  font-family:"Bubblegum Sans", serif;
   transition: background-color 500ms, font-size 500ms;
 }
 
