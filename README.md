@@ -28,15 +28,17 @@ I cannot at this time find any faults in the code:
 
 ## Deployment
 * Below is the Images from my start when I designed this with a wireframes:
-1.![Start](https://user-images.githubusercontent.com/55495783/90340107-a3688280-dfed-11ea-88cb-a1cc94cbd73f.png)
-1.![Playing](https://user-images.githubusercontent.com/55495783/90340106-a3688280-dfed-11ea-9fa0-c399e7292384.png)
-1.![Completed](https://user-images.githubusercontent.com/55495783/90340101-a19ebf00-dfed-11ea-984e-c17a4ba6a96e.png)
-1.![Win](https://user-images.githubusercontent.com/55495783/90340108-a3688280-dfed-11ea-83e7-0471baccf67e.png)
-1.![Game Over](https://user-images.githubusercontent.com/55495783/90340103-a2cfec00-dfed-11ea-9272-a3ab57a59b69.png)
+![Start](https://user-images.githubusercontent.com/55495783/90340107-a3688280-dfed-11ea-88cb-a1cc94cbd73f.png)
+![Playing](https://user-images.githubusercontent.com/55495783/90340106-a3688280-dfed-11ea-9fa0-c399e7292384.png)
+![Completed](https://user-images.githubusercontent.com/55495783/90340101-a19ebf00-dfed-11ea-984e-c17a4ba6a96e.png)
+![Win](https://user-images.githubusercontent.com/55495783/90340108-a3688280-dfed-11ea-83e7-0471baccf67e.png)
+![Game Over](https://user-images.githubusercontent.com/55495783/90340103-a2cfec00-dfed-11ea-9272-a3ab57a59b69.png)
 
 * Below is the deployed version:
 https://richieredmond87.github.io/Childrens-Memory-game/
 
+## Credits
+* I used google fonts for font family: https://fonts.google.com/
 
 ## Media
 * The photos used in this site were obtained from:
