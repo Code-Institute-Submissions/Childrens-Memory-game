@@ -13,11 +13,11 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(#9cec5b ,#f0f465);
+  background: radial-gradient(#ECDB5B , #9CEC5B);
 }
 
 .page-title {
-  color: #FFAAA8;
+  color: #EC625B;
   font-family:"Bubblegum Sans", serif;
   font-weight: normal;
   text-align: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .game-info {
-  color: #FFAAA8;
+  color: #EC625B;
   font-size: 4em;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .card-back {
   background-color: #FAFAFA;
-  border-color: #FFAAA8;
+  border-color: #EC625B;
   transform: rotateY(0); 
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .card-front {
-  background-color: #FFAAA8;
+  background-color: #EC625B;
   border-color: #FAFAFA;
   transform: rotateY(180deg);
 }
@@ -124,7 +124,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #FFAAA8;
+  color: #EC625B;
   font-family:"Bubblegum Sans", serif;
   transition: background-color 500ms, font-size 500ms;
 }

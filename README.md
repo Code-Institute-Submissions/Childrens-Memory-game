@@ -27,8 +27,13 @@ In the project Example idea 2, Gave me the idea of doing a "simple single-player
 
 1. Disclaimer
 ## UX
-I made the fonts to Bubblegum Sans a more child friendly font, I gave it bright colorful colours and made it very easy on the eyes for kids,
-I kept it simple and straight forward not to complicate it or younger people, I made the hover feature so they can easily see what image the are about to click.
+### Project Goals
+The primary goal of this game is to provide a clean, intuitive and child friendly game to entertain and delight it's users.It is tageted at children.
+### Player Goals
+* A fun game to play.
+* Child friendly controls.
+* Large clickable areas for young fingers to operate.
+* Fun images and colours.
 ### Wireframes
 * Below is the Images from my start when I designed this with a wireframes:
 ![Start](https://user-images.githubusercontent.com/55495783/90340107-a3688280-dfed-11ea-88cb-a1cc94cbd73f.png)
@@ -45,23 +50,34 @@ I kept it simple and straight forward not to complicate it or younger people, I 
 * Cards flip over to reveal eight pairs of matching animal cards the do an animation when matched and turn back over when they are not matched
 * Game OVER or You WON! revealed at the end depending on whether you win the game or not and an option to restart the game
 ### Features left to Implement
+* I would like to add an Easy, Medium and Hard setting
 * I would of liked to have a High score page which could track who has the best high score with a name beside it and count the top 10 scores
 * I would like to add sound effects to this project also when cards are matched, you Win or Game Over
+* Resize the Game Over text on Ipad screen size
 
 ## Technologies
 * I used HTML, CSS and JavaScript in this project
 
 
 ## Testing
-I have tested this site every way I know how and fixed bugs to which I found.
-I cannot at this time find any faults in the code:
- 
+* At the start I had some bugs like for example the images not showwing on the deployed version but showing on Gitpod, I later found out that was down to having the absolute path put in once I removed the "../" it worked fine.
+* I tested the colour scheme here: https://coolors.co/
+* I tested the JavaScript here: https://jshint.com/
+* Below is the results of the HTML test
 ![htmlChecker](https://user-images.githubusercontent.com/55495783/90340104-a2cfec00-dfed-11ea-9271-7ba67bba5d08.PNG)
+* Below is the results of the CSS test
 ![cssValidator](https://user-images.githubusercontent.com/55495783/90340084-8cc22b80-dfed-11ea-8e52-276fa4aedf8d.PNG)
 
 
 ## Deployment
-
+To Deploy this project:
+1.Log into GitHub.
+1.From the list of repositories on the screen, select richieredmond87/Childrens-Memory-game.
+1.From the menu items near the top of the page, select Settings.
+1.Scroll down to the GitHub Pages section.
+1.Under Source click the drop-down menu labelled None and select Master Branch
+1.On selecting Master Branch the page is automatically refreshed, Childrens-Memory-game! is now deployed.
+1.Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 * Below is the deployed version:
 https://richieredmond87.github.io/Childrens-Memory-game/
