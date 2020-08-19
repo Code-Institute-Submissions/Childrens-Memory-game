@@ -1,8 +1,10 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/img/Completed.png" style="margin: 0;">
 
 # Childrens Memory Game
-https://richieredmond87.github.io/Childrens-Memory-game/
+
 In the project Example idea 2, Gave me the idea of doing a "simple single-player pattern-matching memory game" but make it inteded for children
+Veiw the game here:
+https://richieredmond87.github.io/Childrens-Memory-game/
 ## Table of Contents
 1. UX
     * Project Goals
@@ -25,7 +27,6 @@ In the project Example idea 2, Gave me the idea of doing a "simple single-player
     * Code
     * Acknowledgements
 
-1. Disclaimer
 ## UX
 ### Project Goals
 The primary goal of this game is to provide a clean, intuitive and child friendly game to entertain and delight it's users.It is tageted at children.
