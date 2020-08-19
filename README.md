@@ -1,4 +1,4 @@
-                                          <img src="assets/img/Completed.png" width="300" >
+ <img src="assets/img/Completed.png" width="300" >
 
 # Childrens Memory Game
 
